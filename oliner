@@ -1,0 +1,15 @@
+
+sudo apt upgrade
+
+wget https://dl.googl
+sudo tar -C /usr/local/ -xzf go1.13.5.linux-amd64.tar.gz
+
+cd /usr/local/
+
+echo $PATH
+
+sudo nano $HOME/.profile
+
+export PATH=$PATH:/usr/local/go/bin
+
+soOME/.profile
